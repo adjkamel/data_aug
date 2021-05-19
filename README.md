@@ -8,6 +8,7 @@ This repository contains code for the paper [Data Augmentation for Land Cover Cl
 #### Models
 
 #### Results
+
 ---
 ![original](https://user-images.githubusercontent.com/50513215/118828577-add9e480-b8bd-11eb-8585-e226467cfd1f.PNG)
 ---
