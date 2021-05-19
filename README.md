@@ -18,3 +18,6 @@ tensorflow 2.0
 ---
 ![generated](https://user-images.githubusercontent.com/50513215/118514193-a6d39a80-b734-11eb-8894-bfd2e887ce8e.PNG)
 ---
+
+
+The full credit of the basic model structure design goes to manicman1999/GAN256 and He-Jian/pix2pix-keras
