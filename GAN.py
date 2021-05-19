@@ -11,7 +11,6 @@ from math import floor
 import tensorflow as tf
 
 # \image : the path must contain the 72 training images of the SPARCS dataset, then the GAN generate new images based on the training samples
-
 Images = []
 images_path = os.getcwd() + '\images'
 files = os.listdir(images_path)
