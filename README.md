@@ -18,10 +18,9 @@ The code has been run on windows with:
 
 
 #### Results
-A screen shot of all 200 generated images. Some of them are in ./gnenerated_images
+- A screen shot of all 200 generated images. Some of them are in ./gnenerated_images
 ![generated](https://user-images.githubusercontent.com/50513215/118514193-a6d39a80-b734-11eb-8894-bfd2e887ce8e.PNG)
 ---
-- To evaluate the models before the 
-Prediction comparison results are shown in the paper.
+- To evaluate the models before and after the daa augmentation, put the prediction labeled images generated using the pretrained model of the CGAN before augemntation in the folder ./Pred_before_augmentation, and put the prediction labeled images generated using the pretrained model of the CGAN sfter augemntation in the folder ./Pred_after_augmentation. After that, Run EVAL.py to generate the IOU and the eucledian distance before and after augmentation.
 
-the basic model structure design goes to manicman1999/GAN256 
+- The basic model structure of the GAN design goes to manicman1999/GAN256 
