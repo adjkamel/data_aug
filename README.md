@@ -8,7 +8,7 @@ The code has been run on windows with:
 - tensorflow 2.0
 - CUDA Version: 11.1
 
-### Run
+#### Run
 - Run GAN.py to generate a new images based on a dataset of images (SPARCS) stored in ./images
 - Run CGAN.py to generate a new images based on a dataset of images (SPARCS) stored in ./images
 #### Dataset 
