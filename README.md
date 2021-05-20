@@ -3,22 +3,25 @@ This repository contains code for the paper [Data Augmentation for Land Cover Cl
 
 #### Requirement
 The code has been run on windows with:
-
 - Python 3.7
-- tensorflow 2.0
+- Tensorflow 2.0
 - CUDA Version: 11.1
 
 #### Run
-- Run GAN.py to generate a new images based on a dataset of images (SPARCS) stored in ./images
-- Run CGAN.py to generate a new images based on a dataset of images (SPARCS) stored in ./images
-#### Dataset 
+- Input images and labeled images must be resized to 256x256 using RESIZEto256.py
+- Run GAN.py to train the model to generate a new images based on a dataset of images (SPARCS) stored in ./images folder. pretrained models will be stored in models_GAN. The images will be stored in generated_images. During the training process you can pick the generated images of the last epochs to augment the dataset.
+- RUN CGAN.py to train the CGAN network to generate labels for the original dataset from ./images_CGAN/train/a. The resulting labels generated during training will be stored in ./predict_CGAN. The pretrained models of CGAN will be stored in the root directory ./
+- After augmenting the dataset with the new generated images, add them to ./images_CGAN/train/a and Run CGAN.py to generate labeled images. The resulting labels generated during training will be stored in ./predict_CGAN as well.
+- To generate labels for the testing set of 8 images in ./images_CGAN/test/a, run CGAN with the pretrained models in ./ root directory before and after augemntation. Use load model in CGAN.py file instead of training from scratch (check the las lines of the code.)
+- Link of the dataset:
 [SPARCS dataset](https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs)
 
-#### Models
 
 #### Results
 A screen shot of all 200 generated images. Some of them are in ./gnenerated_images
 ![generated](https://user-images.githubusercontent.com/50513215/118514193-a6d39a80-b734-11eb-8894-bfd2e887ce8e.PNG)
 ---
+- To evaluate the models before the 
+Prediction comparison results are shown in the paper.
 
 the basic model structure design goes to manicman1999/GAN256 
