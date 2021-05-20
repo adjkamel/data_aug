@@ -2,7 +2,6 @@
 This repository contains code for the paper [Data Augmentation for Land Cover Classification Using Generative Adversarial Networks](https://github.com/csmember/data_aug)
 
 #### Requirement
-The code has been run on windows with:
 - Python 3.7
 - Tensorflow 2.0
 - CUDA Version: 11.1
