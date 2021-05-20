@@ -2,8 +2,11 @@
 This repository contains code for the paper [Data Augmentation for Land Cover Classification Using Generative Adversarial Networks](https://github.com/csmember/data_aug)
 
 #### Requirement
-Python 3.7
-tensorflow 2.0
+The code has been run on windows with:
+
+- Python 3.7
+- tensorflow 2.0
+- CUDA Version: 11.1
 
 #### Dataset 
 [SPARCS dataset](https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs)
