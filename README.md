@@ -8,19 +8,17 @@ The code has been run on windows with:
 - tensorflow 2.0
 - CUDA Version: 11.1
 
+### Run
+- Run GAN.py to generate a new images based on a dataset of images (SPARCS) stored in ./images
+- Run CGAN.py to generate a new images based on a dataset of images (SPARCS) stored in ./images
 #### Dataset 
 [SPARCS dataset](https://www.usgs.gov/core-science-systems/nli/landsat/spatial-procedures-automated-removal-cloud-and-shadow-sparcs)
 
 #### Models
 
 #### Results
-
----
-
-![original](https://user-images.githubusercontent.com/50513215/118828577-add9e480-b8bd-11eb-8585-e226467cfd1f.PNG)
----
+A screen shot of all 200 generated images. Some of them are in ./gnenerated_images
 ![generated](https://user-images.githubusercontent.com/50513215/118514193-a6d39a80-b734-11eb-8894-bfd2e887ce8e.PNG)
 ---
 
-
-The full credit of the basic model structure design goes to manicman1999/GAN256 and He-Jian/pix2pix-keras
+the basic model structure design goes to manicman1999/GAN256 
