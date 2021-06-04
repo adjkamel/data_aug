@@ -24,6 +24,8 @@ This repository contains code for the paper: [Data Augmentation for Land Cover C
 
 - Comparison results between the classification accuracy before and after data augmentation:
 ![image](https://user-images.githubusercontent.com/50513215/120845252-73807080-c568-11eb-8884-648ff34cead3.png)
+![image](https://user-images.githubusercontent.com/50513215/120845643-00c3c500-c569-11eb-8d9a-6fb94e0a29ee.png)
+
 
 
 - Some of the basic model structure of the GAN design goes to manicman1999/GAN256 
