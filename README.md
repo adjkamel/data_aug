@@ -22,4 +22,8 @@ This repository contains code for the paper: [Data Augmentation for Land Cover C
 
 - To evaluate the models before and after the daa augmentation, put the prediction labeled images generated using the pretrained model of the CGAN before augemntation in the folder ./Pred_before_augmentation, and put the prediction labeled images generated using the pretrained model of the CGAN sfter augemntation in the folder ./Pred_after_augmentation. After that, Run EVAL.py to generate the IOU and the eucledian distance before and after augmentation.
 
+- Comparison results between the classification accuracy before and after data augmentation:
+![image](https://user-images.githubusercontent.com/50513215/120845252-73807080-c568-11eb-8884-648ff34cead3.png)
+
+
 - Some of the basic model structure of the GAN design goes to manicman1999/GAN256 
