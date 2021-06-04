@@ -24,7 +24,8 @@ This repository contains code for the paper: [Data Augmentation for Land Cover C
 
 - Comparison results between the classification accuracy before and after data augmentation:
 ![image](https://user-images.githubusercontent.com/50513215/120845252-73807080-c568-11eb-8884-648ff34cead3.png)
-![image](https://user-images.githubusercontent.com/50513215/120845833-3ec0e900-c569-11eb-87ca-1f8a5b569a55.png)
+               ![image](https://user-images.githubusercontent.com/50513215/120846016-7af44980-c569-11eb-8ff4-2398faede8a8.png)
+
 
 
 
