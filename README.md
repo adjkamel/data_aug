@@ -1,5 +1,5 @@
 ## Data Augmentation for Land Cover Classification Using Generative Adversarial Networks
-This repository contains code for the paper: [Data Augmentation for Land Cover Classification Using Generative Adversarial Networks](https://github.com/csmember/data_aug)
+This repository contains code for the paper: [Data Augmentation for Land Cover Classification Using Generative Adversarial Networks](https://ieeexplore.ieee.org/abstract/document/9553374/)
 
 #### Requirement
 - Python 3.7
